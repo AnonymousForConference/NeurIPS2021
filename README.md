@@ -6,9 +6,7 @@ To install requirements:
 
 ```setup
 pip install -r requirements.txt
-```
-
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+``'
 
 ## Training
 
@@ -18,15 +16,11 @@ To train the model(s) in the paper, run this command:
 python main.py --data Cifar10 --method LADA
 ```
 
->📋  Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
-
 ## Evaluation
 
 - Data will be downloaded to folder 'data'.
 - Result will be recorded to folder 'Results'.
 
-
->📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
 ## Pre-trained Models
 
@@ -40,11 +34,11 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### [Image Classification on ImageNet]
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
+| Model name         | FashionMNIST  | SVHN | CIFAR-10 | CIFAR-100 |
 | ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+| LADA   |     83.68%         |      75.72%       |     53.45%       |     46.92%       |
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
