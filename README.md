@@ -1,10 +1,4 @@
->📋  A template README.md for code accompanying a Machine Learning paper
-
 # LADA: Look-Ahead Data Acquisition via Augmentation for Deep Active Learning
-
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
-
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Requirements
 
@@ -28,8 +22,8 @@ python main.py --data Cifar10 --method LADA
 
 ## Evaluation
 
-Data will be downloaded to folder 'data'.
-Result will be recorded to folder 'Results'.
+- Data will be downloaded to folder 'data'.
+- Result will be recorded to folder 'Results'.
 
 
 >📋  Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
