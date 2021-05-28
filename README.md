@@ -32,13 +32,11 @@ You can download pretrained models here:
 
 ## Results
 
-Our model achieves the following performance on :
+Our model achieves the following performance on active learning settings:
 
-### [Image Classification on ImageNet]
-
-| Model name         | FashionMNIST  | SVHN | CIFAR-10 | CIFAR-100 |
-| ------------------ |---------------- | -------------- |
-| LADA   |     83.68%         |      75.72%       |     53.45%       |     46.92%       |
+| Model name  | FashionMNIST  |      SVHN     |    CIFAR-10   |   CIFAR-100   |
+| ----------- |-------------- | ------------- | ------------- | ------------- |
+|    LADA     |     83.68%    |     75.72%    |     53.45%    |     46.92%    |
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
